@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container {
+    border: blue solid 2px;
+    display: flex;
+    width: 650px;
+    height: 650px;
+}
+
+.column {
+    flex: 1;
+    display: flex;  /* using column as container for row pieces */
+    flex-direction: column;
+}
+
+.row {
+    flex: 1;
+    background-color: beige;
+}
+
+.column, .row {
+    border: 1px solid lightgray;
+}
